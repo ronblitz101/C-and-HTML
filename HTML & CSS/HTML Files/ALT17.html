@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--NO NEED TO CHANGE THIS ONE, IT MAY AFFECT THE WHOLE PROCESS-->
+<html lang="en">
+    <head> 
+    
+        <title>Silerio, ALT 17</title>
+		
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel = "icon" href = 
+		"https://lh3.googleusercontent.com/v-AqnWOsA1qtahUWt7eylGWcTj3ifyHKjk7hKueUNWxjME3oHqqJw4GeJ_jhlFfpLYsVMaIC2PXdfWWSwxkhIxsMKilayYPu0U3isvFBCJZ4ms7uRzefp92Ze2pAqwKp21D5jG73F6o=w1920-h1080">
+        
+        <style>
+            
+            .register-heading
+            {
+                margin-left: 21%;
+                margin-bottom: 10%;
+                color: #e9ecef;
+                font-family: 'Josefin Sans', serif;
+            }
+            
+            .register-heading h1
+            {
+                margin-left: 30%;
+                margin-bottom: 20%;
+                color: #e9ecef;
+            }
+            
+            .register
+            {
+                background: -webkit-linear-gradient(left, #f6ea41, #f048c6);
+                margin-bottom: 3%;
+                padding: 3%;
+                border-radius: 1.5rem;
+            }
+            
+            .btnSubmit
+            {
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                color: #fff;
+                background-color: #5bc489;
+                border: none;
+                cursor: pointer;
+                margin-right: 6%;
+                color: rgb(246, 246, 252);
+                margin-top: 4%;
+            }
+            .btnReset
+            {
+                width: 50%;
+                border-radius: 1rem;
+                padding: 1.5%;
+                color: #fff;
+                background-color: #121212;
+                border: none;
+                cursor: pointer;
+                margin-right: 6%;
+                color: rgb(246, 246, 252);
+                margin-top: 4%;
+                
+            }
+            .label:after {
+                content: "*";
+                color: #ff6057;
+                margin: 2px;
+            }
+            
+            .register .nav-tabs .nav-link:hover
+            {
+                border: none;
+            }
+            
+            .text-align
+            {
+                margin-top: -3%;
+                margin-bottom: -9%;
+
+                padding: 10%;
+                margin-left: 30%;
+            }
+            
+            .form-new{
+                margin-right: 22%;
+                margin-left: 20%;
+            }
+            
+            textarea 
+            {
+                width: 100%;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border: 2px solid #ccc;
+                border-radius: 4px;
+                background-color: #f8f8f8;
+                resize: none;
+            }
+            
+            label
+            {
+                color: white;
+                cursor: default;
+            }
+            
+            .checkbox
+            {
+                float:left; 
+                padding-right: 35px;
+                display: block;
+                position: relative;
+                padding-left: 35px;
+                margin-bottom: 12px;
+                cursor: pointer;
+            }
+
+            
+    </style>
+    
+    </head>
+<!--NO NEED TO CHANGE THIS ONE, IT MAY AFFECT THE WHOLE PROCESS-->
+
+
+<!--May edit here-->
+<body style="background-color:#0A0A0A; margin: 0px 0px 0px 0px;">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Josefin+Sans:wght@500&family=Raleway:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	
+	<div class="header" id="header" style="background-color:#282828; height: 120px;">
+		
+			<img src="https://lh3.googleusercontent.com/v-AqnWOsA1qtahUWt7eylGWcTj3ifyHKjk7hKueUNWxjME3oHqqJw4GeJ_jhlFfpLYsVMaIC2PXdfWWSwxkhIxsMKilayYPu0U3isvFBCJZ4ms7uRzefp92Ze2pAqwKp21D5jG73F6o=w1920-h1080"
+			width="auto" height="50px" style="padding: 33px 25px; float: left;" />
+			
+			<a href="https://onlinegdb.com/ZypFQbLNg" target="_blank" style="text-decoration: none; float: left; padding: 50px;">
+				<font size="4" face="Josefin Sans" color="#F0EDE6">Home</font>
+			</a>
+			
+			<a href="https://onlinegdb.com/Ix1B-306L" target="_blank" style="text-decoration: none; float: left; padding: 50px;">
+				<font size="4" face="Josefin Sans" color="#F0EDE6">Schedule Board</font>
+			</a>
+			
+			<a href="https://onlinegdb.com/9REQGxceG" target="_blank" style="text-decoration: none; float: left; padding: 50px;">
+				<font size="4" face="Josefin Sans" color="#F0EDE6">Bucket List</font>
+			</a>
+			
+	</div>
+	
+	<div id="contents" style="height: 150px; margin: 30px 30px 0px 30px;">
+			<font face="Homemade Apple" color="#F0EDE6" size="7" style="padding: 70px 70px 0px 70px;">HTML &nbsp; Forms, &nbsp;Buttons, &nbsp;and&nbsp; Marquees</font>
+	</div>
+		
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <marquee class="marquee" width="" height="100px" behavior="scroll" direction="up" scrollamount="2">
+                            <h1 class="register-heading">Survey Form about Programming</h1>
+                        </marquee>
+                        <div class="row register-form">
+                            <div class="col-md-12">
+                                <form method="post" autocomplete="off" name="google-sheet">
+                                    <div class="form-group">
+                                        <label for="name" class="label">Name</label>
+                                        <input type="text" id="name" name="Name" class="form-control" placeholder="-- Enter Full Name --" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="gender" class="label">Gender</label>
+                                    <select type="text" id="gender" name="Gender" class="form-control" placeholder="" value="" required="">
+                                            <option value="- Please Select -">-- Please Select --</option>
+                                            <option value="Male">Male</option>
+                                            <option value="Female">Female</option>
+                                            <option value="Non-Binary">Non-Binary</option>
+                                            <option value="Other">Other</option>
+                                            <option value="Rather-Not-Say">Rather Not Say</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="age" class="label">Age</label>
+                                        <input type="number" id="age" name="Age" class="form-control" placeholder="-- Enter Age --" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="birthdate" class="label">Birthdate</label>
+                                        <input type="date" id="birthdate" name="Birthdate" class="form-control" placeholder="-- Enter Birthdate --" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="address" class="label">Address</label>
+                                        <input type="text" id="address" name="Address" class="form-control" placeholder="-- Enter Full Address --" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="hobbies" class="label">Hobbies</label>
+                                        <input type="text" id="hobbies" name="Hobbies" class="form-control" placeholder="-- Enter your hobbies (e.g. singing, dancing) --" value="" required=""/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="What is your idea about programming?" class="label">Question 1</label>
+                                        <textarea rows="3" cols="50" name="What is your idea about programming?" class="form-control" placeholder="What is your idea about programming?" value="" required=""></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="What more do you want to learn in programming?" class="label">Question 2</label>
+                                        <textarea rows="3" cols="50" name="What more do you want to learn in programming?" class="form-control" placeholder="What more do you want to learn in programming?" value="" required=""></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="container">I agree that all information entered are true.
+                                            <input type="checkbox" class="checkbox" name="I agree that all information entered are true.">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="submit" name="submit" class="btnSubmit btn-block" value="Submit" />
+                                        <input type="reset" name="reset" class="btnReset btn-block" value="Reset" />
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="bible_verse" style="background-color:#282828; height: 150px;">
+		<table border="0" cellpadding="10" height="auto" width="100%" style="border-color: #0A0A0A; border-spacing: 0px; padding: 20px 0px 20px 0px;">
+			<thead>
+				<tr>
+					<th style="font-family: 'Raleway', sans-serif; color: #F0EDE6; font-size: 14px; padding: 10px; text-align: center;">
+					    <marquee class="marquee" width="15%" height="" behavior="scroll" direction="left" scrollamount="2">Psalm 56:1</marquee></th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<tr>
+					<td style="font-family: 'Raleway', sans-serif; color: #F0EDE6; font-size: 12px; text-align: center;"><b>For the director of music. To the tune of “A Dove on Distant Oaks.” Of David. A miktam. When the Philistines had seized him in Gath.</b></td>
+				</tr>
+				<tr>
+					<td style="font-family: 'Raleway', sans-serif; color: #F0EDE6; font-size: 12px; text-align: center;">Be merciful to me, my God, for my enemies are in hot pursuit; all day long they press their attack.</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+<!--May edit until here-->
+
+
+<!--NO NEED TO CHANGE THIS ONE, IT MAY AFFECT THE WHOLE PROCESS-->         
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxW4MroUc-T1MTzmgEU07OOvc_lga9ur_wJ0wydYYQqLODzBH-UX8QfdAd1p-MSgXZmCA/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Information Recorded!"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--NO NEED TO CHANGE THIS ONE, IT MAY AFFECT THE WHOLE PROCESS-->
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
